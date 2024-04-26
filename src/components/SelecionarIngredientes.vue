@@ -12,6 +12,10 @@ export default {
   async created() {
     this.categorias = await obterCategorias();
   },
+
+  components: {
+    CardCategoria,
+  },
 };
 </script>
 
